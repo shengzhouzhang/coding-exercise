@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": ["src"]
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": true
+        }
+      }
+    ]
+  ]
+}
