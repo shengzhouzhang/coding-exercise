@@ -1,0 +1,39 @@
+[
+  {
+    "customer": "SECOND_BITE",
+    "rules": [
+      {
+        "type": "BUY_N_FOR_M",
+        "product": "classic",
+        "n": 3,
+        "m": 2
+      }
+    ]
+  },
+  {
+    "customer": "AXIL_COFFEE_ROASTERS",
+    "rules": [
+      {
+        "type": "FIXED_PRICE",
+        "product": "standout",
+        "price": "299.99"
+      }
+    ]
+  },
+  {
+    "customer": "MYER",
+    "rules": [
+      {
+        "type": "BUY_N_FOR_M",
+        "product": "standout",
+        "n": 5,
+        "m": 4
+      },
+      {
+        "type": "FIXED_PRICE",
+        "product": "premium",
+        "price": "389.99"
+      }
+    ]
+  }
+]
