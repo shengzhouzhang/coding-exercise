@@ -1,6 +1,6 @@
 import round from '../utils/round';
 
-export default class ProductType {
+export default class ProductPrice {
   constructor(defaultPrice) {
     this.defaultPrice = defaultPrice;
   }
