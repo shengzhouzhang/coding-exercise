@@ -8,12 +8,12 @@ const TEST_CASES = [
     expected: 987.97
   },
   {
-    customer: 'SECOND_BITE',
+    customer: 'SecondBite',
     items: ['classic', 'classic', 'classic', 'premium'],
     expected: 934.97
   },
   {
-    customer: 'AXIL_COFFEE_ROASTERS',
+    customer: 'Axil Coffee Roasters',
     items: ['standout', 'standout', 'standout', 'premium'],
     expected: 1294.96
   }

@@ -1,6 +1,6 @@
 [
   {
-    "customer": "SECOND_BITE",
+    "customer": "SecondBite",
     "rules": [
       {
         "type": "BUY_N_FOR_M",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "customer": "AXIL_COFFEE_ROASTERS",
+    "customer": "Axil Coffee Roasters",
     "rules": [
       {
         "type": "FIXED_PRICE",
