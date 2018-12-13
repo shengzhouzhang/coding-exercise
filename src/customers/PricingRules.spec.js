@@ -1,5 +1,3 @@
-import sinon from 'sinon';
-import { premium } from './products/Products';
 import PricingRules from './PricingRules';
 
 describe('PricingRules', () => {
@@ -21,17 +19,13 @@ describe('PricingRules', () => {
     ]);
   });
 
-  it('should call getPrice with count and product rule', () => {
-    const mock = sinon
-      .mock(premium)
-      .expects('getPrice')
-      .withArgs(1, {
-        type: 'FIXED_PRICE',
-        price: '389.99'
-      })
-      .once();
-
-    pricingRules.getPrice('premium', 1);
-    mock.verify();
+  it('should get pricing rule for a product', () => {
+    const result = pricingRules.getProductRule('premium');
+    const expected = {
+      type: 'FIXED_PRICE',
+      product: 'premium',
+      price: '389.99'
+    };
+    expect(result).toEqual(expected);
   });
 });
