@@ -1,0 +1,11 @@
+{
+  "classic": {
+    "price": 269.99
+  },
+  "standout": {
+    "price": 322.99
+  },
+  "premium": {
+    "price": 394.99
+  }
+}
