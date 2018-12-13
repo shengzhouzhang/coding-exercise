@@ -20,6 +20,15 @@ Run `yarn test` for unit testing.
 
 Unit test files are in `src` folder and named with `.spec.js` next to the target file.
 
+Alternately, unit tests can be run in docker, in case having difficulties to set up local environment.
+
+`docker build -t challenge .`
+`docker run -it challenge test`
+
+### Run Program
+
+This program does **_not_** contain a **_main_** js file. The top level examples are in `Checkout.spec.js` and run with unit testing.
+
 #### Product Prices and Pricing Rules
 
 Product prices and customer special pricing rules are configurable in `src/config` folder with `json` format.
@@ -28,7 +37,7 @@ Product prices are loaded in `src/products/Products.js` and pricing rules are lo
 
 #### Code Structure
 
-There is not a **_main_** js file in the solution. Please look into the `Checkout.spec.js` for the top level examples.
+Please look into the `Checkout.spec.js` for the top level examples.
 
 ```
 src
