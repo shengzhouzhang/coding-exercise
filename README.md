@@ -12,11 +12,13 @@ The program is written in `Node.js` version `v10.14.1`. Source code can be found
 
 Run `yarn install`
 
+It might need yarn version `1.12.3`. See https://yarnpkg.com/en/ to install yarn.
+
 #### Unit Tests
 
 Run `yarn test` for unit testing.
 
-Unit tests are in `src` folder and named with `.spec.js` next to the target file.
+Unit test files are in `src` folder and named with `.spec.js` next to the target file.
 
 #### Product Prices and Pricing Rules
 

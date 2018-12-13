@@ -1,11 +1,10 @@
 {
   "name": "seek-challenge",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "build": "babel src",
-    "test": "jest --coverage",
+    "build": "babel src -d build",
+    "test": "yarn prettier && jest --coverage",
     "prettier": "prettier --write 'src/**/*.js'"
   },
   "devDependencies": {
