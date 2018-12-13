@@ -1,5 +1,5 @@
 import Checkout from './Checkout';
-import PricingRules from './PricingRules';
+import PricingRules from './customers/PricingRules';
 
 const TEST_CASES = [
   {

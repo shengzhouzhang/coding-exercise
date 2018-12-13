@@ -1,4 +1,4 @@
-import RULES from './config/rules.json';
+import RULES from '../config/rules.json';
 
 export default class PricingRules {
   constructor(customerName) {
