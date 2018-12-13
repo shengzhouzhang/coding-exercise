@@ -8,13 +8,13 @@ Please see `Software Engineer Code Challenge.pdf` on the root folder.
 
 The program is written in `Node.js` version `v10.14.1`. Source code can be found in folder `src`.
 
-#### Installation
+### Installation
 
 Run `yarn install`
 
 It might need yarn version `1.12.3`. See https://yarnpkg.com/en/ to install yarn.
 
-#### Unit Tests
+### Unit Tests
 
 Run `yarn test` for unit testing.
 
@@ -29,13 +29,13 @@ Alternately, unit tests can be run in docker, in case having difficulties to set
 
 This program does **_not_** contain a **_main_** js file. The top level examples are in `Checkout.spec.js` and run with unit testing.
 
-#### Product Prices and Pricing Rules
+### Product Prices and Pricing Rules
 
 Product prices and customer special pricing rules are configurable in `src/config` folder with `json` format.
 
 Product prices are loaded in `src/products/Products.js` and pricing rules are loaded in `src/PricingRules.js`
 
-#### Code Structure
+### Code Structure
 
 Please look into the `Checkout.spec.js` for the top level examples.
 
@@ -49,7 +49,7 @@ src
 -- Checkout.spec.js   // unit tests and examples
 ```
 
-#### Design
+### Design
 
 See `design.png`:
 
