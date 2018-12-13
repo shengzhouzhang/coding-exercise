@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "babel src -d build",
+    "start": "yarn test",
     "test": "yarn prettier && jest --coverage",
     "prettier": "prettier --write 'src/**/*.js'"
   },
